@@ -19,7 +19,7 @@ html{
 }
 .header{
     padding: 1rem 7%;
-    background-color: var(--mainclr);
+    background-color: rgb(255, 255, 255);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -29,10 +29,10 @@ html{
     z-index: 1000;
 }
 .header #logo{
-    width: 50px;
+    width: 100px;
 }
 .navbar a{
-    color: white;
+    color: rgb(15, 14, 14);
     font-size: 1.5rem;
     margin-left: 2rem;
     position: relative;
