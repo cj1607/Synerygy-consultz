@@ -1,9 +1,8 @@
-/* :root{
+:root{
     --mainclr:#239f85;
     --secclr:#ff5d22;
-    --third:#DFE4E0;
     --mainafterclr:hsl(167, 81%, 79%);
-} */
+} 
 *{
     margin: 0;
     padding: 0;
