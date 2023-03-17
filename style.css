@@ -383,9 +383,6 @@ html{
 
 
 /* width */
-::-webkit-scrollbar {
-    width: 20px;
-  }
   
   /* Track */
   ::-webkit-scrollbar-track {
