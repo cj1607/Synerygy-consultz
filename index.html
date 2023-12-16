@@ -11,11 +11,13 @@
               goals in life." name="description">
 
     <!-- Favicon -->
-    <link href="img/favicon.ico" rel="icon">
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">  
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&family=Roboto:wght@400;700&display=swap"
+        rel="stylesheet">
 
     <!-- Icon Font Stylesheet -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css" rel="stylesheet">
@@ -30,6 +32,11 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+
+    <!-- Slick Slider -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+
 </head>
 
 <body>
@@ -39,9 +46,11 @@
             <div class="row">
                 <div class="col-md-6 text-center text-lg-start mb-2 mb-lg-0">
                     <div class="d-inline-flex align-items-center">
-                        <a class="text-decoration-none text-body pe-3" href=""><i class="bi bi-telephone me-2"></i>+4407459925181</a>
+                        <a class="text-decoration-none text-body pe-3" href=""><i
+                                class="bi bi-telephone me-2"></i>+4407459925181</a>
                         <span class="text-body">|</span>
-                        <a class="text-decoration-none text-body px-3" href=""><i class="bi bi-envelope me-2"></i>Info@synergysconsults.com</a>
+                        <a class="text-decoration-none text-body px-3" href=""><i
+                                class="bi bi-envelope me-2"></i>Info@synergysconsults.com</a>
                     </div>
                 </div>
                 <div class="col-md-6 text-center text-lg-end">
@@ -72,14 +81,16 @@
     <!-- Navbar Start -->
     <div class="container-fluid sticky-top bg-white shadow-sm">
         <div class="container">
-            <nav class="navbar navbar-expand-lg bg-white navbar-light py-3 py-lg-0">
+            <nav class="navbar navbar-expand-lg bg-white navbar-light py-0">
                 <a href="index.html" class="navbar-brand">
-                    <h1 class="m-0 text-uppercase text-primary"><img class="" src="img/logo.png" width="120" height="120"></h1>
+                    <h1 class="m-0 text-uppercase text-primary">
+                        <img class="logo" src="img/logo.png">
+                    </h1>
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarCollapses">
+                <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div class="navbar-nav ms-auto py-0">
                         <a href="index.html" class="nav-item nav-link active">Home</a>
                         <a href="about.html" class="nav-item nav-link">About</a>
@@ -106,12 +117,27 @@
 
 
     <!-- Hero Start -->
-    <div class="container-fluid bg-primary py-5 mb-5 hero-header">
-        <div class="container py-5">
-            <div class="row justify-content-start">
-                <div class="col-lg-8 text-center text-lg-start">
-                    <h5 class="d-inline-block text-primary text-uppercase border-bottom border-5" style="border-color: rgba(256, 256, 256, .3) !important;">Welcome To Synergys Consultz</h5>
-                    <h1 class="display-1 text-white mb-md-4" style="color:#13c5dd !important">Best Healthcare Solution In Your City</h1>
+    <div class="container-fluid bg-primary py-5 mb-5 hero-header position-relative">
+        <div class="slider-contn">
+            <div class="slider-nav">
+                <div>
+                    <img src="./img/hero.jpg" alt="">
+                </div>
+                <div>
+                    <img src="./img/slide-2.jpg" alt="">
+                </div>
+                <div>
+                    <img src="./img/slide-3.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="veil"></div>
+        <div class="container py-5 position-relative">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 text-center">
+                    <h5 class="d-inline-block text-uppercase border-bottom border-2"
+                        style="border-color: rgba(256, 256, 256, .3) !important;">Welcome To Synergys Consultz</h5>
+                    <h1 class="display-1 text-white mb-md-4">Best Healthcare Solution In Your City</h1>
                     <!-- <div class="pt-2">
                         <a href="" class="btn btn-light rounded-pill py-md-3 px-md-5 mx-2">Find a virtual assistance</a>
                         <a href="" class="btn btn-outline-light rounded-pill py-md-3 px-md-5 mx-2">Appointment</a>
@@ -124,21 +150,31 @@
 
 
     <!-- About Start -->
-    <div class="container-fluid py-5">
+    <div class="container-fluid py-5 px-0 pb-0">
         <div class="container">
             <div class="row gx-5">
                 <div class="col-lg-5 mb-5 mb-lg-0" style="min-height: 500px;">
                     <div class="position-relative h-100">
-                        <img class="position-absolute w-100 h-100 rounded" src="img/about.jpg" style="object-fit: cover;">
+                        <img class="position-absolute w-100 h-100 rounded" src="img/about.jpg"
+                            style="object-fit: cover;">
                     </div>
                 </div>
                 <div class="col-lg-7">
                     <div class="mb-4">
                         <h5 class="d-inline-block text-primary text-uppercase border-bottom border-5">About Us</h5>
-                        <h1 class="display-8" style="font-size: 2rem;">Synergy Consultz has made the fulfilment of dreams of our clients a priority.</h1>
+                        <h1 class="display-8" style="font-size: 2rem;">Synergy Consultz has made the fulfilment of
+                            dreams of our clients a priority.</h1>
                     </div>
-                    <p>At Synergys, we create a platform where employers get the appropriate staff and Job seekers get the job that suits their goals in life.</p>
-                    <p>At Synergy, we create a platform where employers get the appropriate staff and Job seekers get the job that suits their goals in life. Whether you’re looking for a change of jobs – or even considering relocating to the uk - our team of professionals can help. Similarly, if you are looking to hire talented professionals, our global brand and reputation attracts some of the leading talent from across the world from within every industry especially the healthcare industry. Our consultants are here to support you through any career transitions. Synergys Consultz goes beyond a typical staffing firm, we offer training, We support you through your overseas admission process and travels. We are at the click of your finger.</p>
+                    <p>At Synergys, we create a platform where employers get the appropriate staff and Job seekers get
+                        the job that suits their goals in life.</p>
+                    <p>At Synergy, we create a platform where employers get the appropriate staff and Job seekers get
+                        the job that suits their goals in life. Whether you’re looking for a change of jobs – or even
+                        considering relocating to the uk - our team of professionals can help. Similarly, if you are
+                        looking to hire talented professionals, our global brand and reputation attracts some of the
+                        leading talent from across the world from within every industry especially the healthcare
+                        industry. Our consultants are here to support you through any career transitions. Synergys
+                        Consultz goes beyond a typical staffing firm, we offer training, We support you through your
+                        overseas admission process and travels. We are at the click of your finger.</p>
                     <!-- <div class="row g-3 pt-3">
                         <div class="col-sm-3 col-6">
                             <div class="bg-light text-center rounded-circle py-4">
@@ -166,104 +202,114 @@
                         </div>
                     </div> 
                 </div>-->
+                </div>
             </div>
         </div>
-    </div>
-    <!-- About End -->
-    
+        <!-- About End -->
 
-    <!-- Services Start -->
-    <div class="container-fluid py-5">
-        <div class="container">
-            <div class="text-center mx-auto mb-5" style="max-width: 500px;">
-                <!-- <h5 class="d-inline-block text-primary text-uppercase border-bottom border-5">Services</h5> -->
-                <h1 class="display-4">Services</h1>
-            </div>
-            <div class="row g-5">
-                <div class="col-lg-4 col-md-6">
-                    <div class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
-                        <div class="service-icon mb-4">
-                            <i class="fa fa-2x fa-user-md text-white"></i>
-                        </div>
-                        <h4 class="mb-3">TRAINING
-                        </h4>
-                        <p class="m-0">We are now offering a large number of virtual training sessions. Enquire how we can best satisfy your training needs.</p>
-                        <a class="btn btn-lg btn-primary rounded-pill" href="">
-                            <i class="bi bi-arrow-right"></i>
-                        </a>
-                    </div>
+
+        <!-- Services Start -->
+        <div class="container-fluid py-5">
+            <div class="container py-5">
+                <div class="text-center mx-auto mb-5 pb-5" style="max-width: 500px;">
+                    <!-- <h5 class="d-inline-block text-primary text-uppercase border-bottom border-5">Services</h5> -->
+                    <h1 class="display-4">Services</h1>
                 </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
-                        <div class="service-icon mb-4">
-                            <i class="fa fa-2x fa-procedures text-white"></i>
+                <div class="row g-5">
+                    <div class="col-lg-4 col-md-6">
+                        <div
+                            class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
+                            <div class="service-icon mb-4">
+                                <i class="fa fa-2x fa-user-md text-white"></i>
+                            </div>
+                            <h4 class="mb-3">TRAINING
+                            </h4>
+                            <p class="m-0">We are now offering a large number of virtual training sessions. Enquire how
+                                we can best satisfy your training needs.</p>
+                            <a class="btn btn-lg btn-primary" href="">
+                                Read more
+                            </a>
                         </div>
-                        <h4 class="mb-3">CONSULTATION</h4>
-                        <p class="m-0">They say power is gained by sharing knowledge, not hoarding it. At Synergys Consultz, Over the years, we've learnt a thing or two in tactics,...</p>
-                        <a class="btn btn-lg btn-primary rounded-pill" href="">
-                            <i class="bi bi-arrow-right"></i>
-                        </a>
                     </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
-                        <div class="service-icon mb-4">
-                            <i class="fa fa-2x fa-stethoscope text-white"></i>
+                    <div class="col-lg-4 col-md-6">
+                        <div
+                            class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
+                            <div class="service-icon mb-4">
+                                <i class="fa fa-2x fa-procedures text-white"></i>
+                            </div>
+                            <h4 class="mb-3">CONSULTATION</h4>
+                            <p class="m-0">They say power is gained by sharing knowledge, not hoarding it. At Synergys
+                                Consultz, Over the years, we've learnt a thing or two in tactics,...</p>
+                            <a class="btn btn-lg btn-primary" href="">
+                                Read more
+                            </a>
                         </div>
-                        <h4 class="mb-3">RECRUITMENT </h4>
-                        <p class="m-0">Many employers, from large multinationals to smaller organisations use our recruitment service to fill their vacancies.
-                        We find suitable ...</p>
-                        <a class="btn btn-lg btn-primary rounded-pill" href="">
-                            <i class="bi bi-arrow-right"></i>
-                        </a>
                     </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
-                        <div class="service-icon mb-4">
-                            <i class="fa fa-2x fa-ambulance text-white"></i>
+                    <div class="col-lg-4 col-md-6">
+                        <div
+                            class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
+                            <div class="service-icon mb-4">
+                                <i class="fa fa-2x fa-stethoscope text-white"></i>
+                            </div>
+                            <h4 class="mb-3">RECRUITMENT </h4>
+                            <p class="m-0">Many employers, from large multinationals to smaller organisations use our
+                                recruitment service to fill their vacancies.
+                                We find suitable ...</p>
+                            <a class="btn btn-lg btn-primary" href="">
+                                Read more
+                            </a>
                         </div>
-                        <h4 class="mb-3">ADMISSION  </h4>
-                        <p class="m-0">We are one of the top student university admission consultants, operating globally for over 12years. All of our student
-                        advisors are ...</p>
-                        <a class="btn btn-lg btn-primary rounded-pill" href="">
-                            <i class="bi bi-arrow-right"></i>
-                        </a>
                     </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
-                        <div class="service-icon mb-4">
-                            <i class="fa fa-2x fa-pills text-white"></i>
+                    <div class="col-lg-4 col-md-6">
+                        <div
+                            class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
+                            <div class="service-icon mb-4">
+                                <i class="fa fa-2x fa-ambulance text-white"></i>
+                            </div>
+                            <h4 class="mb-3">ADMISSION </h4>
+                            <p class="m-0">We are one of the top student university admission consultants, operating
+                                globally for over 12years. All of our student
+                                advisors are ...</p>
+                            <a class="btn btn-lg btn-primary" href="">
+                                Read more
+                            </a>
                         </div>
-                        <h4 class="mb-3">TRAVELS</h4>
-                        <p class="m-0">We know you've got an idea of a dream holiday but don't know how to go about booking it. Synergys Consultz provides
-                        travel and ...</p>
-                        <a class="btn btn-lg btn-primary rounded-pill" href="">
-                            <i class="bi bi-arrow-right"></i>
-                        </a>
                     </div>
-                </div>
-                <!-- <div class="col-lg-4 col-md-6">
+                    <div class="col-lg-4 col-md-6">
+                        <div
+                            class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
+                            <div class="service-icon mb-4">
+                                <i class="fa fa-2x fa-pills text-white"></i>
+                            </div>
+                            <h4 class="mb-3">TRAVELS</h4>
+                            <p class="m-0">We know you've got an idea of a dream holiday but don't know how to go about
+                                booking it. Synergys Consultz provides
+                                travel and ...</p>
+                            <a class="btn btn-lg btn-primary" href="">
+                                Read more
+                            </a>
+                        </div>
+                    </div>
+                    <!-- <div class="col-lg-4 col-md-6">
                     <div class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
                         <div class="service-icon mb-4">
                             <i class="fa fa-2x fa-microscope text-white"></i>
                         </div>
                         <h4 class="mb-3">Blood Testing</h4>
                         <p class="m-0">Kasd dolor no lorem nonumy sit labore tempor at justo rebum rebum stet, justo elitr dolor amet sit</p>
-                        <a class="btn btn-lg btn-primary rounded-pill" href="">
-                            <i class="bi bi-arrow-right"></i>
+                        <a class="btn btn-lg btn-primary" href="">
+                            Read more
                         </a>
                     </div>
                 </div> -->
+                </div>
             </div>
         </div>
-    </div> 
-    <!-- Services End -->
+        <!-- Services End -->
 
 
-    <!-- Appointment Start -->
-    <!-- <div class="container-fluid bg-primary my-5 py-5">
+        <!-- Appointment Start -->
+        <!-- <div class="container-fluid bg-primary my-5 py-5">
         <div class="container py-5">
             <div class="row gx-5">
                 <div class="col-lg-6 mb-5 mb-lg-0">
@@ -326,11 +372,11 @@
             </div>
         </div>
     </div> -->
-    <!-- Appointment End -->
+        <!-- Appointment End -->
 
 
-    <!-- Pricing Plan Start -->
-    <!-- <div class="container-fluid py-5">
+        <!-- Pricing Plan Start -->
+        <!-- <div class="container-fluid py-5">
         <div class="container">
             <div class="text-center mx-auto mb-5" style="max-width: 500px;">
                 <h5 class="d-inline-block text-primary text-uppercase border-bottom border-5">Medical Packages</h5>
@@ -412,11 +458,11 @@
             </div>
         </div>
     </div> -->
-    <!-- Pricing Plan End -->
+        <!-- Pricing Plan End -->
 
 
-    <!-- Team Start -->
-    <!-- <div class="container-fluid py-5">
+        <!-- Team Start -->
+        <!-- <div class="container-fluid py-5">
         <div class="container">
             <div class="text-center mx-auto mb-5" style="max-width: 500px;">
                 <h5 class="d-inline-block text-primary text-uppercase border-bottom border-5">Our Doctors</h5>
@@ -483,11 +529,11 @@
             </div>
         </div>
     </div> -->
-    <!-- Team End -->
+        <!-- Team End -->
 
 
-    <!-- Search Start -->
-    <!-- <div class="container-fluid bg-primary my-5 py-5">
+        <!-- Search Start -->
+        <!-- <div class="container-fluid bg-primary my-5 py-5">
         <div class="container py-5">
             <div class="text-center mx-auto mb-5" style="max-width: 500px;">
                 <h5 class="d-inline-block text-white text-uppercase border-bottom border-5">Find A Doctor</h5>
@@ -508,11 +554,11 @@
             </div>
         </div>
     </div> -->
-    <!-- Search End -->
+        <!-- Search End -->
 
 
-    <!-- Testimonial Start -->
-    <!-- <div class="container-fluid py-5">
+        <!-- Testimonial Start -->
+        <!-- <div class="container-fluid py-5">
         <div class="container">
             <div class="text-center mx-auto mb-5" style="max-width: 500px;">
                 <h5 class="d-inline-block text-primary text-uppercase border-bottom border-5">Testimonial</h5>
@@ -562,11 +608,11 @@
             </div>
         </div>
     </div> -->
-    <!-- Testimonial End -->
+        <!-- Testimonial End -->
 
 
-    <!-- Blog Start -->
-    <!-- <div class="container-fluid py-5">
+        <!-- Blog Start -->
+        <!-- <div class="container-fluid py-5">
         <div class="container">
             <div class="text-center mx-auto mb-5" style="max-width: 500px;">
                 <h5 class="d-inline-block text-primary text-uppercase border-bottom border-5">Blog Post</h5>
@@ -636,156 +682,129 @@
             </div>
         </div>
     </div> -->
-    <!-- Blog End -->
-    
-    <!-- Footer Start -->
-    <div class="container-fluid bg-dark text-light mt-5 py-5" style="padding-left: 0px; padding-right: 0px;">
-      <div class="container py-5">
-        <div class="row g-5">
-          <div class="col-lg-3 col-md-6">
-            <h4
-              class="d-inline-block text-primary text-uppercase border-bottom border-5 border-secondary mb-4"
-            >
-              Get In Touch
-            </h4>
-            <p class="mb-4">
-              At synergys consults, we believe our dedication to exceptional care makes us stand out from the crowd.
-            </p>
-            <p class="mb-2">
-              <i class="fa fa-map-marker-alt text-primary me-3"></i>Dundee and
-              Manchester
-            </p>
-            <p class="mb-2">
-              <i class="fa fa-envelope text-primary me-3"></i>
-              info@synergysconsults.com
-            </p>
-            <p class="mb-0">
-              <i class="fa fa-phone-alt text-primary me-3"></i>+4407459925181
-            </p>
-          </div>
-          <div class="col-lg-3 col-md-6">
-            <h4
-              class="d-inline-block text-primary text-uppercase border-bottom border-5 border-secondary mb-4"
-            >
-              Quick Links
-            </h4>
-            <div class="d-flex flex-column justify-content-start">
-              <a class="text-light mb-2" href="#"
-                ><i class="fa fa-angle-right me-2"></i>Home</a
-              >
-              <a class="text-light mb-2" href="about.html"
-                ><i class="fa fa-angle-right me-2"></i>About Us</a
-              >
-              <a class="text-light mb-2" href="service.html"
-                ><i class="fa fa-angle-right me-2"></i>Our Services</a
-              >
-              <a class="text-light" href="contact.html"
-                ><i class="fa fa-angle-right me-2"></i>Contact Us</a
-              >
+        <!-- Blog End -->
+
+        <!-- Footer Start -->
+        <div class="container-fluid bg-dark text-light mt-5 py-5" style="padding-left: 0px; padding-right: 0px;">
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-lg-3 col-md-6">
+                        <h4
+                            class="d-inline-block text-primary text-uppercase border-bottom border-5 border-secondary mb-4">
+                            Get In Touch
+                        </h4>
+                        <p class="mb-4">
+                            At synergys consults, we believe our dedication to exceptional care makes us stand out from
+                            the crowd.
+                        </p>
+                        <p class="mb-2">
+                            <i class="fa fa-map-marker-alt text-primary me-3"></i>Dundee and
+                            Manchester
+                        </p>
+                        <p class="mb-2">
+                            <i class="fa fa-envelope text-primary me-3"></i>
+                            info@synergysconsults.com
+                        </p>
+                        <p class="mb-0">
+                            <i class="fa fa-phone-alt text-primary me-3"></i>+4407459925181
+                        </p>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h4
+                            class="d-inline-block text-primary text-uppercase border-bottom border-5 border-secondary mb-4">
+                            Quick Links
+                        </h4>
+                        <div class="d-flex flex-column justify-content-start">
+                            <a class="text-light mb-2" href="#"><i class="fa fa-angle-right me-2"></i>Home</a>
+                            <a class="text-light mb-2" href="about.html"><i class="fa fa-angle-right me-2"></i>About
+                                Us</a>
+                            <a class="text-light mb-2" href="service.html"><i class="fa fa-angle-right me-2"></i>Our
+                                Services</a>
+                            <a class="text-light" href="contact.html"><i class="fa fa-angle-right me-2"></i>Contact
+                                Us</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h4
+                            class="d-inline-block text-primary text-uppercase border-bottom border-5 border-secondary mb-4">
+                            Popular Links
+                        </h4>
+                        <div class="d-flex flex-column justify-content-start">
+                            <a class="text-light mb-2" href="/"><i class="fa fa-angle-right me-2"></i>Home</a>
+                            <a class="text-light mb-2" href="about.html"><i class="fa fa-angle-right me-2"></i>About
+                                Us</a>
+                            <a class="text-light mb-2" href="service.html"><i class="fa fa-angle-right me-2"></i>Our
+                                Services</a>
+                            <a class="text-light" href="contact.html"><i class="fa fa-angle-right me-2"></i>Contact
+                                Us</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h4
+                            class="d-inline-block text-primary text-uppercase border-bottom border-5 border-secondary mb-4">
+                            Newsletter
+                        </h4>
+                        <form action="">
+                            <div class="input-group">
+                                <input type="text" class="form-control p-3 border-0" placeholder="Your Email Address" />
+                                <button class="btn btn-primary">Sign Up</button>
+                            </div>
+                        </form>
+                        <h6 class="text-primary text-uppercase mt-4 mb-3">Follow Us</h6>
+                        <div class="d-flex">
+                            <a class="btn btn-lg btn-primary btn-lg-square rounded-circle me-2" href="#"><i
+                                    class="fab fa-twitter"></i></a>
+                            <a class="btn btn-lg btn-primary btn-lg-square rounded-circle me-2" href="#"><i
+                                    class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-lg btn-primary btn-lg-square rounded-circle me-2" href="#"><i
+                                    class="fab fa-linkedin-in"></i></a>
+                            <a class="btn btn-lg btn-primary btn-lg-square rounded-circle" href="#"><i
+                                    class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
-          <div class="col-lg-3 col-md-6">
-            <h4
-              class="d-inline-block text-primary text-uppercase border-bottom border-5 border-secondary mb-4"
-            >
-              Popular Links
-            </h4>
-            <div class="d-flex flex-column justify-content-start">
-              <a class="text-light mb-2" href="/"
-                ><i class="fa fa-angle-right me-2"></i>Home</a
-              >
-              <a class="text-light mb-2" href="about.html"
-                ><i class="fa fa-angle-right me-2"></i>About Us</a
-              >
-              <a class="text-light mb-2" href="service.html"
-                ><i class="fa fa-angle-right me-2"></i>Our Services</a
-              >
-              <a class="text-light" href="contact.html"
-                ><i class="fa fa-angle-right me-2"></i>Contact Us</a
-              >
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6">
-            <h4
-              class="d-inline-block text-primary text-uppercase border-bottom border-5 border-secondary mb-4"
-            >
-              Newsletter
-            </h4>
-            <form action="">
-              <div class="input-group">
-                <input
-                  type="text"
-                  class="form-control p-3 border-0"
-                  placeholder="Your Email Address"
-                />
-                <button class="btn btn-primary">Sign Up</button>
-              </div>
-            </form>
-            <h6 class="text-primary text-uppercase mt-4 mb-3">Follow Us</h6>
-            <div class="d-flex">
-              <a
-                class="btn btn-lg btn-primary btn-lg-square rounded-circle me-2"
-                href="#"
-                ><i class="fab fa-twitter"></i
-              ></a>
-              <a
-                class="btn btn-lg btn-primary btn-lg-square rounded-circle me-2"
-                href="#"
-                ><i class="fab fa-facebook-f"></i
-              ></a>
-              <a
-                class="btn btn-lg btn-primary btn-lg-square rounded-circle me-2"
-                href="#"
-                ><i class="fab fa-linkedin-in"></i
-              ></a>
-              <a
-                class="btn btn-lg btn-primary btn-lg-square rounded-circle"
-                href="#"
-                ><i class="fab fa-instagram"></i
-              ></a>
-            </div>
-          </div>
         </div>
-      </div>
-    </div>
-    <div
-      class="container-fluid bg-dark text-light border-top border-secondary py-4"
-    >
-      <div class="container">
-        <div class="row g-5">
-          <div class="col-md-6 text-center text-md-start">
-            <p class="mb-md-0">
-              &copy; <a class="text-primary" href="#">Synergys Consultz</a>. All
-              Rights Reserved.
-            </p>
-          </div>
-          <div class="col-md-6 text-center text-md-end">
-            <p class="mb-0">
-              Designed by <a class="text-primary" href="">Renasteredev</a>
-            </p>
-          </div>
+        <div class="container-fluid bg-dark text-light border-top border-secondary py-4">
+            <div class="container">
+                <div class="row g-5">
+                    <div class="col-md-6 text-center text-md-start">
+                        <p class="mb-md-0">
+                            &copy; <a class="text-primary" href="#">Synergys Consultz</a>. All
+                            Rights Reserved.
+                        </p>
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        <p class="mb-0">
+                            Designed by <a class="text-primary" href="">Renasteredev</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-    <!-- Footer End -->
+        <!-- Footer End -->
 
 
-    <!-- Back to Top -->
-    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
 
+        <!-- Slick Slider -->
+        <script src="https://code.jquery.com/jquery-3.6.4.min.js" defer></script>
+        <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js" defer></script>
+        <script src="./js/slider.js" defer></script>
 
-    <!-- JavaScript Libraries -->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="lib/easing/easing.min.js"></script>
-    <script src="lib/waypoints/waypoints.min.js"></script>
-    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-    <script src="lib/tempusdominus/js/moment.min.js"></script>
-    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
-    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+        <!-- JavaScript Libraries -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        <script src="lib/tempusdominus/js/moment.min.js"></script>
+        <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+        <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
 
-    <!-- Template Javascript -->
-    <script src="js/main.js"></script>
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
 </body>
 
 </html>
